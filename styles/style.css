@@ -132,15 +132,10 @@ header {
     text-decoration: underline;
 }
 
-
-
-
-
 .pilares {
     width: 100%;
     padding: 4% 5%;
-    background-color: #ffffff;
-    
+    background-color: #f5f5f5;
 }
 
 .pilares-marcas {
@@ -173,4 +168,51 @@ header {
     font-size: 18px;
     font-weight: 600;
     color: #344b5a;
+}
+
+
+.caracteristicas {
+    width: 100%;
+    padding: 4% 5%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4%;
+}
+
+.caracteristica-imagen {
+    width: 50%;
+}
+
+.caracteristica-imagen img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.caracteristica-contenido {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 4%;
+}
+
+.caracteristica-contenido h2 {
+    font-size: 32px;
+    color: #279bd2;
+    margin-bottom: 5%;
+}
+
+.caracteristica-contenido article h3 {
+    font-size: 22px;
+    color: #344b5a;
+    margin-bottom: 1%;
+}
+
+.caracteristica-contenido article p {
+    font-size: 16px;
+    color: black;
+    line-height: 1.7;
+    margin-bottom: 5%;
 }
