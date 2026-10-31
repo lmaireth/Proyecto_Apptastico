@@ -372,3 +372,54 @@ header {
 .participantes > a:hover {
     text-decoration: underline;
 }
+
+.diferencias {
+    padding: 70px 8%;
+    background: linear-gradient(120deg, #52636d, #394c59);
+}
+
+.diferencias h2 {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.descripcion-diferencias {
+    font-size: 17px;
+    line-height: 1.7;
+    margin-bottom: 40px;
+}
+
+.comparacion {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+}
+
+.diferencia {
+    padding-bottom: 25px;
+    border-bottom: 2px solid #279bd2;
+}
+
+.diferencia h3 {
+    font-size: 22px;
+    margin-bottom: 25px;
+    color: #ffffff;
+}
+
+.diferencia p {
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 18px;
+    color: #eeeeee;
+}
+
+.diferencia strong {
+    color: #279bd2;
+}
+
+@media (max-width: 768px) {
+    .comparacion {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+}
