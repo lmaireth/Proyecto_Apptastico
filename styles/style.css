@@ -216,3 +216,52 @@ header {
     line-height: 1.7;
     margin-bottom: 5%;
 }
+
+.proyectos {
+    width: 100%;
+    padding: 4% 6%;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+
+.proyectos h2 {
+    font-size: 28px;
+    color: #344b5a;
+    margin-bottom: 3%;
+}
+
+.galeria-proyectos {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 3%;
+}
+
+.proyecto {
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.proyecto img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    padding: 3px;
+    background-color: white;
+    border: 1px solid #d9d9d9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+}
+
+.proyecto h3 {
+    font-size: 19px;
+    color: #344b5a;
+    margin-top: 5%;
+    font-weight: 600;
+}
