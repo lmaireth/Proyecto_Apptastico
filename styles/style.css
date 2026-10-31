@@ -511,7 +511,22 @@ footer p {
 
 @media (max-width: 920px) {
 
-    
+    .navbar {
+        width: 90%;
+        padding: 25px 0;
+    }
+
+    .logo img {
+        width: 120px;
+    }
+
+    .menu {
+        gap: 18px;
+    }
+
+    .menu a {
+        font-size: 14px;
+    }
 
 }
 
