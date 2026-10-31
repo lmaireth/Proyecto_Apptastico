@@ -532,7 +532,146 @@ footer p {
 
 @media (max-width: 768px) {
 
+    .navbar {
+        width: 90%;
+        padding: 20px 0;
+    }
+
+    .logo img {
+        width: 100px;
+    }
+
+    .menu {
+        gap: 12px;
+    }
+
+    .menu a {
+        font-size: 13px;
+    }
+
+    .portada {
+        width: 90%;
+        flex-direction: column;
+        text-align: center;
+        padding: 30px 0;
+        gap: 25px;
+    }
+
+    .portada-contenido {
+        width: 100%;
+        order: 1;
+    }
+
+    .portada-imagen {
+        width: 75%;
+        order: 2;
+    }
+
+    .portada-contenido h1 {
+        font-size: 36px;
+    }
+
+    .portada-contenido p {
+        font-size: 15px;
+    }
+
+    .portada-botones {
+        justify-content: center;
+        gap: 20px;
+        margin-top: 30px;
+    }
+
     
+
+    .caracteristicas {
+        flex-direction: column;
+        padding: 40px 7%;
+        gap: 30px;
+    }
+
+    .caracteristica-imagen,
+    .caracteristica-contenido {
+        width: 100%;
+    }
+
+    .caracteristica-contenido h2 {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+
+    .caracteristica-contenido article h3 {
+        font-size: 20px;
+    }
+
+    .caracteristica-contenido article p {
+        font-size: 15px;
+    }
+
+    .proyectos {
+        padding: 40px 7%;
+    }
+
+    .proyectos h2 {
+        font-size: 25px;
+        margin-bottom: 25px;
+    }
+
+    .galeria-proyectos {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .proyecto {
+        width: 45%;
+    }
+
+    .proyecto h3 {
+        font-size: 17px;
+    }
+
+    .informacion {
+        grid-template-columns: 1fr;
+        padding: 40px 7%;
+        gap: 40px;
+    }
+
+    .entrada-blog {
+        grid-template-columns: 120px 1fr;
+        gap: 15px;
+    }
+
+    .entrada-blog img {
+        width: 120px;
+        height: 100px;
+    }
+
+    .diferencias {
+        padding: 45px 7%;
+    }
+
+    .diferencias h2 {
+        font-size: 26px;
+    }
+
+    .descripcion-diferencias {
+        font-size: 15px;
+        margin-bottom: 30px;
+    }
+
+    .comparacion {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .diferencia h3 {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    .diferencia p {
+        font-size: 15px;
+    }
 
 }
 
