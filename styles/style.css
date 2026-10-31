@@ -581,7 +581,6 @@ footer p {
         margin-top: 30px;
     }
 
-    
 
     .caracteristicas {
         flex-direction: column;
@@ -677,6 +676,203 @@ footer p {
 
 @media (max-width: 480px) {
 
-    
+    .navbar {
+        width: 92%;
+        padding: 18px 0;
+        flex-direction: column;
+        gap: 20px;
+    }
 
+    .logo img {
+        width: 100px;
+    }
+
+    .menu {
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 12px 18px;
+    }
+
+    .menu a {
+        font-size: 12px;
+    }
+
+    .portada {
+        width: 90%;
+        flex-direction: column;
+        text-align: center;
+        padding: 25px 0;
+        gap: 20px;
+    }
+
+    .portada-contenido {
+        width: 100%;
+        order: 1;
+    }
+
+    .portada-contenido h1 {
+        font-size: 28px;
+    }
+
+    .portada-contenido p {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    .portada-botones {
+        flex-direction: column;
+        gap: 18px;
+        margin-top: 25px;
+    }
+
+    .portada-botones a:first-child {
+        padding: 13px 30px;
+    }
+
+    .portada-imagen {
+        width: 100%;
+        order: 2;
+    }
+
+    .pilares {
+        padding: 15px 3%;
+    }
+
+    .pilares-marcas {
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        gap: 8px;
+    }
+
+    .marca {
+        flex: 1;
+        min-width: 0;
+        gap: 4px;
+    }
+
+    .marca img {
+        width: 55%;
+    }
+
+    .marca h3 {
+        font-size: 10px;
+    }
+
+    .caracteristicas {
+        flex-direction: column;
+        padding: 30px 6%;
+        gap: 25px;
+    }
+
+    .caracteristica-imagen,
+    .caracteristica-contenido {
+        width: 100%;
+    }
+
+    .caracteristica-contenido h2 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .caracteristica-contenido article h3 {
+        font-size: 18px;
+    }
+
+    .caracteristica-contenido article p {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    .proyectos {
+        padding: 30px 6%;
+    }
+
+    .proyectos h2 {
+        font-size: 23px;
+        margin-bottom: 20px;
+    }
+
+    .galeria-proyectos {
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+    }
+
+    .proyecto {
+        width: 100%;
+    }
+
+    .proyecto h3 {
+        font-size: 17px;
+        margin-top: 12px;
+    }
+
+    .informacion {
+        grid-template-columns: 1fr;
+        padding: 30px 6%;
+        gap: 35px;
+    }
+
+    .blog h2,
+    .participantes h2 {
+        font-size: 21px;
+    }
+
+    .entrada-blog {
+        grid-template-columns: 1fr;
+        gap: 12px;
+    }
+
+    .entrada-blog img {
+        width: 100%;
+        height: 180px;
+    }
+
+    .contenido-blog h3,
+    .publicacion h3 {
+        font-size: 16px;
+    }
+
+    .contenido-blog p,
+    .publicacion p {
+        font-size: 14px;
+    }
+
+    .diferencias {
+        padding: 35px 6%;
+    }
+
+    .diferencias h2 {
+        font-size: 23px;
+    }
+
+    .descripcion-diferencias {
+        font-size: 14px;
+        margin-bottom: 25px;
+    }
+
+    .comparacion {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+
+    .diferencia h3 {
+        font-size: 19px;
+        margin-bottom: 15px;
+    }
+
+    .diferencia p {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    footer {
+        padding: 20px 6%;
+        font-size: 12px;
+        gap: 15px;
+        text-align: center;
+    }
+
+    
 }
