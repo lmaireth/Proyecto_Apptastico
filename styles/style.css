@@ -265,3 +265,110 @@ header {
     margin-top: 5%;
     font-weight: 600;
 }
+
+.informacion {
+    width: 100%;
+    padding: 4% 5%;
+    background-color: #ffffff;
+    color: #344b5a;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5%;
+    align-items: start;
+}
+
+.blog {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.blog h2 {
+    font-size: 24px;
+    color: #344b5a;
+}
+
+.entrada-blog {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    gap: 25px;
+    align-items: start;
+}
+
+.entrada-blog img {
+    width: 150px;
+    height: 110px;
+    object-fit: cover;
+    padding: 3px;
+    background-color: white;
+    border: 1px solid #d9d9d9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.contenido-blog {
+    display: grid;
+    gap: 7px;
+}
+
+.contenido-blog h3 {
+    font-size: 17px;
+    color: #344b5a;
+}
+
+.contenido-blog p {
+    font-size: 15px;
+    color: #777777;
+    line-height: 1.6;
+}
+
+.contenido-blog span {
+    font-size: 13px;
+    color: #999999;
+}
+
+.participantes {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 18px;
+}
+
+.participantes h2 {
+    font-size: 24px;
+    color: #344b5a;
+}
+
+.publicacion {
+    display: grid;
+    gap: 8px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.publicacion h3 {
+    font-size: 17px;
+    color: #344b5a;
+}
+
+.publicacion p {
+    font-size: 15px;
+    color: #777777;
+    line-height: 1.6;
+}
+
+.publicacion span {
+    font-size: 13px;
+    color: #279bd2;
+}
+
+.blog > a,
+.participantes > a {
+    color: #279bd2;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.blog > a:hover,
+.participantes > a:hover {
+    text-decoration: underline;
+}
